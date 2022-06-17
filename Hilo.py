@@ -23,8 +23,35 @@ class HiloGame: # class name
     def print_card(self):
         print("current card: ", self.card) 
 
+
     def guess(self):
         guess = input("choose ( Higher / Lower)")
+        self.is_playing =(guess == "higher")
+        if self.is_playing:
+            self.card = random.randint(1,13)
+            self.score += 100
+        else:
+            self.card = random.randint(1,13)
+            self.score -= 75
+            if self.score < 0:
+                self.score = 0
+                self.is_playing = False
+class Gamecard:
+
+    def print_score(self):
+        print("Your score is: ",self.score)
+
+    def quit(self):
+        self.is_playing = False 
+        
+if __name__ =="__main__":
+    game = HiloGame()
+    game.start_game()
+    
+
+        
+        
+    
 
 
 
