@@ -20,7 +20,13 @@ class HiloGame: # class name
         print("game over!")
         print("Your score is: ", self.score)
 
-        
+    def print_card(self):
+        print("current card: ", self.card) 
+
+    def guess(self):
+        guess = input("choose ( Higher / Lower)")
+
+
 
 
         
