@@ -4,7 +4,14 @@ Hilo is a game in which the player guesses if the next card drawn by the dealer 
 
 
 """
-class HiloGame:
-    def __init__(self):
+class HiloGame: # class name
+    def __init__(self):#function for intializing the game
+         self.score =300 #player starts with ponts
+         self.is_playing = True
+         self.card = random.randint(1,13)
+         self.card_list =[1,2,3,4,5,6,7,8,9,10,11,12,13]
+         self.card_list_len=len(self.card_list)
+
+
         
         
