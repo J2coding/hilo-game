@@ -11,7 +11,8 @@
 
 ## project Structure:
 
-## The game is an example of abstraction principle of object oriented programming in python.Abstraction tends to hide the complexity of functions and methods to the user by breaking it into simple function.The user has no knowledge of what goes behind the code though he knows what the program does.
+## 
+The game is an example of abstraction principle of object oriented programming in python.Abstraction tends to hide the complexity of functions and methods to the user by breaking it into simple function.The user has no knowledge of what goes behind the code though he knows what the program does.
 
 ## The game is initialized using a constructor __init__ as a fuction with two classes
 ## class DiceGame and Class HiloGame
