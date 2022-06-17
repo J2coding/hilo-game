@@ -11,6 +11,16 @@ class HiloGame: # class name
          self.card = random.randint(1,13)
          self.card_list =[1,2,3,4,5,6,7,8,9,10,11,12,13]
          self.card_list_len=len(self.card_list)
+    
+    def start_game(self):
+        while (self.score > 0):
+            self.print_card()
+            self.guess()
+            self.print_score()
+        print("game over!")
+        print("Your score is: ", self.score)
+
+        
 
 
         
