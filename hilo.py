@@ -1,3 +1,8 @@
+"""
+Josephine Mueni Nzioka
+
+"""
+
 # Create a dice game.
 # The player starts with 300 points.
 # Individual cards are represented by numbers 1-13.
